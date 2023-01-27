@@ -1,11 +1,13 @@
+import Link from "next/link"
 import { AiOutlineMail } from "react-icons/ai"
 import { BsFillPersonFill } from "react-icons/bs"
 import { FaGithub, FaLinkedinIn } from "react-icons/fa"
+import {HiOutlineChevronDoubleUp} from 'react-icons/hi'
 
 
 export const Contact = () => {
   return (
-    <div className='w-full lg:h-screen'>
+    <div id="contact" className='w-full lg:h-screen'>
       <div className='max-w-[1240px] m-auto px-2 py-16 w-full'>
         <p className='text-xl tracking-widest uppercase text-[#5651e5]'>
           Contact
@@ -28,7 +30,6 @@ export const Contact = () => {
                 <p className='py-4'> I am available for freelance or full-time positions. Contact me and let's talk.</p>
 
               </div>
-            </div>
             <div>
               <p className='uppercase pt-8'>Connect with Me</p>
             </div>
@@ -46,6 +47,8 @@ export const Contact = () => {
                 <BsFillPersonFill />
               </div>
           </div>
+
+            </div>
           </div>
 
           {/* right */}
@@ -88,7 +91,14 @@ export const Contact = () => {
               </form>
             </div>
           </div>
-        
+      </div>
+      <div className='flex justify-center py-12'>
+        <Link href='/'>
+          <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+            <HiOutlineChevronDoubleUp 
+            className='text-[#5651e5]' size={30} />
+          </div>
+        </Link>
       </div>
     </div>
   </div>
