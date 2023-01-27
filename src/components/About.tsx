@@ -1,3 +1,5 @@
+import Image from 'next/image'
+import AboutImg from '../../public/assets/about.jpg';
 import React from 'react'
 
 export const About = () => {
@@ -28,9 +30,11 @@ export const About = () => {
           <p className='py-2 text-gray-600'>check out some of lastest projects.</p>
         </div>
         <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
-          <img 
-            src='https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80'
+          <Image 
+            src={AboutImg}
             className='rounded-xl' 
+            width={400}
+            height= {400}
             alt='/' 
           />
         </div>

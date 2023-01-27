@@ -1,3 +1,4 @@
+import Image from "next/image"
 import Link from "next/link"
 import { AiOutlineMail } from "react-icons/ai"
 import { BsFillPersonFill } from "react-icons/bs"
@@ -19,15 +20,18 @@ export const Contact = () => {
           <div className='col-span-3 lg:col-span-2 w-full shadow-xl shadow-gray-400 rounded-xl p4'>
             <div className='lg:p-4 h-full'>
               <div>
-                <img
-                className='rounded-xl hover:scale-105 ease-in duration-300'
-                 src="/assets/contact.jpg"
-                  alt="/" />
+                <Image
+                  className='rounded-xl hover:scale-105 ease-in duration-300'
+                  src="/assets/contact.jpg"
+                  alt="/"
+                  width={400}
+                  height= {400}
+                />
               </div>
               <div>
                 <h2 className='py-2'>Name here</h2>
                 <p>Front-End Developer</p>
-                <p className='py-4'> I am available for freelance or full-time positions. Contact me and let's talk.</p>
+                <p className='py-4'> I am available for freelance or full-time positions. Contact me and let’s talk.</p>
 
               </div>
             <div>
