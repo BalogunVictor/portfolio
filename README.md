@@ -4,7 +4,7 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">A Web portfolio application built on Next.js</h3>
+  <h3 align="center">A web portfolio application built on Next.js</h3>
 
   <p align="center">
     An Awesome Project!
