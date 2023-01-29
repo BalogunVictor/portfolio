@@ -4,7 +4,7 @@
     <img src="https://getlogovector.com/wp-content/uploads/2020/10/readme-logo-vector.png"  alt="Logo" width="200" height="200">
   </a>
 
-  <h3 align="center">A web portfolio application built on Next.js</h3>
+  <h3 align="center">A web portfolio application built on Next.js with TypeScript</h3>
 
   <p align="center">
     An Awesome Project!
