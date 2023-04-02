@@ -2,7 +2,8 @@
 <p align="center">
   <a href="https://github.com/Balogun Victor/portfolio">
     <img src="https://getlogovector.com/wp-content/uploads/2020/10/readme-logo-vector.png"  alt="Logo" width="200" height="200">
-  </a>![Screenshot (22)](https://user-images.githubusercontent.com/93051955/229336072-87176254-699f-4457-94e5-b118e072995a.png)
+![Screenshot (22)](https://user-images.githubusercontent.com/93051955/229336232-6f6cebd6-cd6d-45d5-ab8b-c0f92f427e85.png)
+
 
 
   <h3 align="center">A web portfolio application built on Next.js with TypeScript</h3>
